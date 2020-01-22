@@ -12,6 +12,10 @@ public class Login {
 
         driver.get("https://www.facebook.com/");
         driver.findElement(By.id("email")).sendKeys("123@gmail.com"); 
+        
+        driver.findElement(By.id("pass")).sendKeys("76538736");
+        
+        driver.findElement(By.id("lgnbutton")).click();
 	}
 
 }
